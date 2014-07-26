@@ -51,6 +51,10 @@ a:hover {
   border-bottom-width: 1px;
 }
 
+footer {
+  color: #888;
+}
+
 @media(max-width: 700px) {
   object {
     width: 80%;

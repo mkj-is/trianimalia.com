@@ -9,4 +9,4 @@ github_username:  mkj-is
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: "/:title/"

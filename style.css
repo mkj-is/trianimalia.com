@@ -54,6 +54,7 @@ a:hover {
 @media(max-width: 700px) {
   object {
     width: 80%;
+    min-height: 80px;
   }
 }
 

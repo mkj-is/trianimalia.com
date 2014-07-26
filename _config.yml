@@ -1,0 +1,12 @@
+# Site settings
+title: Trianimae
+email: matej.jirasek@me.com
+description: "Taxonomy of triangulated animals. Art by Matěj Kašpar Jirásek"
+baseurl: ""
+url: "http://trianimae.com"
+twitter_username: mkj_is
+github_username:  mkj-is
+
+# Build settings
+markdown: kramdown
+permalink: pretty

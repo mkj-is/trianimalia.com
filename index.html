@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE HTML>
 <html>
   <head>
@@ -10,43 +12,19 @@
   <body>
     <object data="images/logo.svg" type="image/svg+xml" id="logo"></object>
     <section>
+      {% for category in site.categories %}
       <div>
-          <img src="images/wired/outline-frog.svg" alt="Amphibia" />
-          <h2>Amphibia</h2>
+          <img src="images/categories/{{ category }}.svg" alt="{{ category | first | capitalize }}" />
+          <h2>{{ category | first | capitalize }}</h2>
           <ul>
-            <li><a href="#">Agalychnis callidryas</a></li>
+            {% for posts in category %}
+              {% for post in posts %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endfor %}
+            {% endfor %}
           </ul>
       </div>
-      <div>
-        <img src="images/wired/outline-milvus-milvus.svg" alt="Aves" />
-        <h2>Aves</h2>
-        <ul>
-          <li><a href="#">Milvus milvus</a></li>
-          <li><a href="#">Phoenicopterus roseus</a></li>
-          <li><a href="#">Aptenodytes patagonicus</a></li>
-          <li><a href="#">Hirundo rustica</a></li>
-          <li><a href="#">Tyto alba</a></li>
-        </ul>
-      </div>
-      <div>
-        <img src="images/wired/outline-elephant.svg" alt="Mammalia" />
-        <h2>Mammalia</h2>
-        <ul>
-          <li><a href="#">Loxodonta africana</a></li>
-          <li><a href="#">Vulpes vulpes</a></li>
-          <li><a href="#">Canis lupus familiaris</a></li>
-          <li><a href="#">Cervus elaphus</a></li>
-          <li><a href="#">Oryctolagus cuniculus</a></li>
-          <li><a href="#">Ovis aries</a></li>
-        </ul>
-      </div>
-      <div>
-        <img src="images/wired/outline-tortoise.svg" alt="Reptilia" />
-        <h2>Reptilia</h2>
-        <ul>
-          <li><a href="#">Geochelone nigra</a></li>
-        </ul>
-      </div>
+      {% endfor %}
     </section>
     <section id="overlay">
     </section>

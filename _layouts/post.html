@@ -6,16 +6,78 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="../css/post.css">
   </head>
   <body>
     <article>
       <h1>{{ page.title }}</h1>
       <p>{{ content }}</p>
     </article>
+    <nav>
+      {% if page.previous.url %}
+        <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+          <svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="icon_next" stroke="#FFFFFF" stroke-width="1" fill="none" fill-rule="evenodd">
+              <path d="M10,4 L26,18 L10,32" id="Stroke-2" sketch:type="MSShapeGroup" transform="translate(18.000000, 18.000000) rotate(-180.000000) translate(-18.000000, -18.000000) "></path>
+            </g>
+          </svg>
+        </a>
+      {% endif %}
+      <a href=".." title="Taxonomy">
+        <svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="icon_taxonomy" stroke="#FFFFFF" stroke-width="1" fill="none" fill-rule="evenodd">
+            <rect x="10" y="2" width="15" height="10"></rect>
+            <rect x="19" y="22" width="15" height="10"></rect>
+            <rect x="1" y="22" width="15" height="10"></rect>
+            <path d="M8,22 L8,17 L27,17 L27,22"></path>
+            <path d="M17.5,11.5 L17.5,16.5"></path>
+          </g>
+        </svg>
+      </a>
+      {% if page.next.url %}
+        <a href="{{ page.next.url }}" title="{{ page.next.title }}">
+          <svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="icon_next" stroke="#FFFFFF" stroke-width="1" fill="none" fill-rule="evenodd">
+              <path d="M10,4 L26,18 L10,32"></path>
+            </g>
+          </svg>
+        </a>
+      {% endif %}
+    </nav>
     <style type="text/css">
 body {
+  background-color: #080808;
+  background-size: cover;
+  -webkit-background-origin:border;
   background-image: url(../images/animals/{{ page.title | downcase | split: ' ' | join: '-' }}.jpg);
+  color: #f5f5f5;
+  font-family: Lato, sans-serif;
+  font-style: inherit;
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-weight: inherit;
+  position: fixed;
+  margin: 0;
+  bottom: 15px;
+  left: 15px;
+}
+
+nav {
+  position: fixed;
+  margin: 0;
+  bottom: 15px;
+  right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
 }
     </style>
   </body>

@@ -1,14 +1,13 @@
 
-var svg = document.getElementById("logo");
-svg.addEventListener("load",function(){
+function update_logo() {
   var color = Please.make_color({
     saturation: 0.4
   })
   var scheme = Please.make_scheme(Please.HEX_to_HSV(color), {
     scheme_type: 'analogous',
   })
+  var svg = document.getElementById("logo")
   var svgDoc = svg.contentDocument;
-  var s = document.getElementById("logo")
   var triangles = svgDoc.getElementById('triangles').childNodes;
   var pointMap = []
   for(var i = 0; i < triangles.length; i++) {
@@ -39,4 +38,6 @@ svg.addEventListener("load",function(){
   for(var i = 0; i < links.length; i++) {
     links[i].style.color = color;
   }
-})
+}
+
+window.addEventListener("load", update_logo, false);

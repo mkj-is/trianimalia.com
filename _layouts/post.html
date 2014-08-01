@@ -129,10 +129,11 @@
     <style type="text/css">
 body {
   background-color: #080808;
-  background-size: auto 100%;
-  background-position: center center;
-  -webkit-background-origin:border;
-  background-image: url(../images/animals/{{ page.title | downcase | split: ' ' | join: '-' }}.jpg);
+  background: url(../images/animals/{{ page.title | downcase | split: ' ' | join: '-' }}.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   {% if page.white %}
     color: #080808;
   {% else %}

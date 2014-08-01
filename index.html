@@ -114,7 +114,7 @@ footer {
     <section>
       {% for category in site.categories %}
       <div>
-          <img src="images/categories/{{ category | strip_newlines }}.svg" alt="{{ category | first | capitalize }}" />
+          <img src="images/categories/{{ category | first | strip_newlines }}.svg" alt="{{ category | first | capitalize }}" />
           <h2>{{ category | first | capitalize }}</h2>
           <ul>
             {% for posts in category %}

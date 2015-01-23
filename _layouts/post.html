@@ -62,8 +62,13 @@ nav.main {
 a {
   text-decoration: none;
 }
-a:visited {
+a, a:visited, a:link {
   color: inherit;
+  {% if page.white %}
+    color: #080808;
+  {% else %}
+    color: #f5f5f5;
+  {% endif %}
 }
 .share, .buy {
   display: none;

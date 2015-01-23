@@ -27,16 +27,6 @@
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="fb:admins" content="1285557746" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    <script type="text/javascript">
-      function show_sharer(){
-        var elements = document.getElementsByClassName('share')
-        elements[0].style.display = 'block'
-      }
-      function hide_sharer(){
-        var elements = document.getElementsByClassName('share')
-        elements[0].style.display = 'none'
-      }
-    </script>
     <style type="text/css">
 body {
   background-color: #080808;
@@ -63,7 +53,7 @@ h1 {
   bottom: 15px;
   left: 15px;
 }
-nav {
+nav.main {
   position: fixed;
   margin: 0;
   bottom: 15px;
@@ -75,7 +65,7 @@ a {
 a:visited {
   color: inherit;
 }
-.share {
+.share, .buy {
   display: none;
   position: fixed;
   left: 0px;
@@ -87,6 +77,10 @@ a:visited {
 }
 .share * {
   margin: 2px;
+}
+.buy ul {
+  list-style-type: none;
+  font-size: 2em;
 }
 @media(max-width: 700px) {
   nav {
@@ -123,25 +117,51 @@ ga('send', 'pageview');
 document.onkeydown = function (e) {
   e = e || window.event;
   var charCode = (e.charCode) ? e.charCode : e.keyCode;
-
   if (charCode == 37) {
     window.location.href = '{{ page.previous.url }}';
   }
   else if (charCode == 39) {
     window.location.href = '{{ page.next.url }}';
   }
-};
+}
+function show_sharer(){
+  var elements = document.getElementsByClassName('share')
+  elements[0].style.display = 'block'
+}
+function hide_sharer(){
+  var elements = document.getElementsByClassName('share')
+  elements[0].style.display = 'none'
+}
+function show_buy(){
+  var elements = document.getElementsByClassName('buy')
+  elements[0].style.display = 'block'
+}
+function hide_buy(){
+  var elements = document.getElementsByClassName('buy')
+  elements[0].style.display = 'none'
+}
     </script>
     <article>
       <h1>{{ page.title }}</h1>
       <p>{{ content }}</p>
     </article>
-    <nav>
+    <nav class="main">
       {% if page.previous.url %}
         <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">
           <svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="icon_next" stroke="{% if page.white %}#080808{% else %}#f5f5f5{% endif %}" stroke-width="1" fill="none" fill-rule="evenodd">
               <path d="M10,4 L26,18 L10,32" transform="translate(18, 18) rotate(-180) translate(-18, -18) "></path>
+            </g>
+          </svg>
+        </a>
+      {% endif %}
+      {% if page.society6 %}
+        <a href="javascript:show_buy()" title="Buy">
+          <svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="icon_buy" stroke="{% if page.white %}#080808{% else %}#f5f5f5{% endif %}" stroke-width="1" fill="none" fill-rule="evenodd">
+              <circle cx="24.5" cy="26.5" r="2.5"></circle>
+              <circle cx="13.5" cy="26.5" r="2.5"></circle>
+              <path d="M1.5,5.5 L6.5,5.5 L10.5,20.5 L28.5,20.5 L28.5,8.5 L7.5,8.5"></path>
             </g>
           </svg>
         </a>
@@ -174,6 +194,13 @@ document.onkeydown = function (e) {
         </a>
       {% endif %}
     </nav>
+    {% if page.society6 %}
+      <nav class="buy" onclick="javascript:hide_buy()">
+        <ul>
+          <li><a href="{{ page.society6 }}" target="_blank" title="Society6">Buy on Society6 (US/World)</a></li>
+        </ul>
+      </nav>
+    {% endif %}
     <section class="share" onclick="javascript:hide_sharer()">
       <a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" title="Facebook">
         <svg width="60" height="60" viewBox="0 0 30 30">

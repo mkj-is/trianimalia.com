@@ -53,7 +53,7 @@
           </svg>
         </a>
       {% endif %}
-      {% if page.society6 %}
+      {% if page.society6 or page.juniqe %}
         <a href="javascript:show('buy')" title="Buy">
           <svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="icon_buy" stroke="{% if page.white %}#080808{% else %}#f5f5f5{% endif %}" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -92,7 +92,7 @@
         </a>
       {% endif %}
     </nav>
-    {% if page.society6 || page.juniqe %}
+    {% if page.society6 or page.juniqe %}
       <nav class="buy" onclick="javascript:hide('buy')">
         <ul>
           {% if page.society6 %}

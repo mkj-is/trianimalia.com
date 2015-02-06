@@ -3,7 +3,7 @@ layout: post
 title:  "Pseudotrapelus sinaitus"
 category: reptilia
 white: true
-society6: "http://society6.com/product/agama-sinaita-lizard_print?curator=mkj_is"
+society6: "http://society6.com/product/agama-sinaita-lizard_print"
 ---
 
 The Sinai agama (Pseudotrapelus sinaitus, formerly Agama sinaita) is an agamid lizard found in arid areas of southeastern Libya, eastern Egypt, Israel, Jordan, Syria, Saudi Arabia, the United Arab Emirates, Oman, eastern Sudan, Ethiopia, Eritrea, and Djibouti.

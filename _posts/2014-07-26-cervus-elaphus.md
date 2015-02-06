@@ -3,7 +3,7 @@ layout: post
 title:  "Cervus elaphus"
 category: mammalia
 white: true
-society6: "http://society6.com/product/dear-deer-x4b_print?curator=mkj_is"
+society6: "http://society6.com/product/dear-deer-x4b_print"
 ---
 
 The red deer (Cervus elaphus) is one of the largest deer species. The red deer inhabits most of Europe, the Caucasus Mountains region, Asia Minor, Iran, parts of western Asia, and central Asia. It also inhabits the Atlas Mountains region between Morocco and Tunisia in northwestern Africa, being the only species of deer to inhabit Africa. Red deer have been introduced to other areas, including Australia, New Zealand, Peru, Uruguay, Chile and Argentina. In many parts of the world, the meat (venison) from red deer is used as a food source.

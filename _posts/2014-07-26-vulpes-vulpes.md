@@ -2,7 +2,7 @@
 layout: post
 title:  "Vulpes vulpes"
 category: mammalia
-society6: "http://society6.com/product/triangular-fox-oo9_print?curator=mkj_is"
+society6: "http://society6.com/product/triangular-fox-oo9_print"
 ---
 
 The red fox (Vulpes vulpes) is the largest of the true foxes and the most abundant member of the Carnivora, being present across the entire Northern Hemisphere from the Arctic Circle to North Africa, Central America and Asia. It is listed as Least Concern by the IUCN. Its range has increased alongside human expansion, having been introduced to Australia, where it is considered harmful to native mammals and bird populations. Due to its presence in Australia, it is included among the list of the "world's 100 worst invasive species".

@@ -2,7 +2,7 @@
 layout: post
 title:  "Geochelone nigra"
 category: reptilia
-society6: "http://society6.com/product/triangular-testudo_print?curator=mkj_is"
+society6: "http://society6.com/product/triangular-testudo_print"
 ---
 
 The Galápagos tortoise or Galápagos giant tortoise (Chelonoidis nigra) is the largest living species of tortoise and the 13th-heaviest living reptile. Modern giant tortoises can weigh up to 250 kg; even larger versions, now extinct, roamed every continent except Antarctic and Australia into the Pleistocene (<1.8 million years ago). With life spans in the wild of over 100 years, it is one of the longest-lived vertebrates. A captive individual lived at least 170 years.

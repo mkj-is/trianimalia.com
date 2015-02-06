@@ -92,10 +92,15 @@
         </a>
       {% endif %}
     </nav>
-    {% if page.society6 %}
+    {% if page.society6 || page.juniqe %}
       <nav class="buy" onclick="javascript:hide('buy')">
         <ul>
-          <li><a href="{{ page.society6 }}" target="_blank" title="Society6">Buy on Society6 (US/World)</a></li>
+          {% if page.society6 %}
+            <li><a href="{{ page.society6 }}?curator=mkj_is" target="_blank" title="Society6">Buy on Society6 (US/World)</a></li>
+          {% endif %}
+          {% if page.juniqe %}
+            <li><a href="{{ page.juniqe }}?ltb=off&amp;utm_source=facebook&amp;utm_medium=referral_artist&amp;utm_campaign=fb_referral_artist_314-matej-kaspar-jirasek" target="_blank" title="JUNIQE">Buy on JUNIQE (EU)</a></li>
+          {% endif %}
         </ul>
       </nav>
     {% endif %}

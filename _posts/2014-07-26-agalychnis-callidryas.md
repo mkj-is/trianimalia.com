@@ -2,6 +2,7 @@
 layout: post
 title:  "Agalychnis callidryas"
 category: amphibia
+juniqe: "http://www.juniqe.com/print-unframed-din-landscape-551398.html"
 ---
 
 The red-eyed tree frog (Agalychnis callidryas) is an arboreal hylid native to Neotropical rainforests in Central America.

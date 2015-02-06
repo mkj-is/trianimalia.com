@@ -2,6 +2,7 @@
 layout: post
 title:  "Hirundo rustica"
 category: aves
+juniqe: "http://www.juniqe.com/print-unframed-din-landscape-551983.html"
 ---
 
 The barn swallow (Hirundo rustica) is the most widespread species of swallow in the world. It is a distinctive passerine bird with blue upperparts, a long, deeply forked tail and curved, pointed wings. It is found in Europe, Asia, Africa and the Americas. In Anglophone Europe it is just called the swallow; in Northern Europe it is the only common species called a "swallow" rather than a "martin".

@@ -3,6 +3,7 @@ layout: post
 title:  "Oryctolagus cuniculus"
 category: mammalia
 white: true
+juniqe: "http://www.juniqe.com/print-unframed-din-landscape-552180.html"
 ---
 
 The European rabbit or common rabbit (Oryctolagus cuniculus) is a species of rabbit native to southwestern Europe (Spain and Portugal) and northwest Africa (Morocco and Algeria). It has been widely introduced elsewhere, often with devastating effects on local biodiversity. However, its decline in its native range (caused by the diseases myxomatosis and rabbit calicivirus, as well as overhunting and habitat loss), has caused the decline of its highly dependent predators, the Iberian lynx and the Spanish imperial eagle. It is known as an invasive species because it has been introduced to countries on all continents with the exception of Antarctica and sub-Saharan Africa, and caused many problems within the environment and ecosystems. Australia has the most problems with European rabbits, due to the lack of natural predators there.

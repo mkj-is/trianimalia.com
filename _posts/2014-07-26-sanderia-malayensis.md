@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sanderia malayensis"
-category: cnydaria
+category: cnidaria
 ---
 
 http://en.wikipedia.org/wiki/Sanderia

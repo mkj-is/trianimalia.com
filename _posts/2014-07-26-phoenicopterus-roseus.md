@@ -2,7 +2,6 @@
 layout: post
 title:  "Phoenicopterus roseus"
 category: aves
-society6: "http://society6.com/product/triangular-flamingo_print"
 juniqe: "http://www.juniqe.com/print-unframed-din-landscape-552314.html"
 ---
 

@@ -13,4 +13,4 @@ Red deer are ruminants, characterized by an even number of toes, and a four-cham
 
 Although at one time red deer were rare in parts of Europe they were never close to extinction. Reintroduction and conservation efforts, especially in the United Kingdom, have resulted in an increase of red deer populations, while other areas, such as North Africa, have continued to show a population decline.
 
-http://en.wikipedia.org/wiki/Red_deer
+<http://en.wikipedia.org/wiki/Red_deer>

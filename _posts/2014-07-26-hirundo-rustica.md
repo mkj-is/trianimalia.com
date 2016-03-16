@@ -11,4 +11,4 @@ There are six subspecies of barn swallow, which breed across the Northern Hemisp
 
 The barn swallow is a bird of open country which normally uses man-made structures to breed and consequently has spread with human expansion. It builds a cup nest from mud pellets in barns or similar structures and feeds on insects caught in flight. This species lives in close association with humans, and its insect-eating habits mean that it is tolerated by man; this acceptance was reinforced in the past by superstitions regarding the bird and its nest. There are frequent cultural references to the barn swallow in literary and religious works due to both its living in close proximity to humans and its annual migration. The barn swallow is the national bird of Austria and Estonia.
 
-http://en.wikipedia.org/wiki/Barn_swallow
+<http://en.wikipedia.org/wiki/Barn_swallow>

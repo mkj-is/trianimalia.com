@@ -12,4 +12,4 @@ The red fox originated from smaller-sized ancestors from Eurasia during the Midd
 
 Red foxes are usually together in pairs or small groups consisting of families, such as a mated pair and their young, or a male with several females having kinship ties. The young of the mated pair remain with their parents to assist in caring for new kits. The species primarily feeds on small rodents, though it may also target rabbits, game birds, reptiles, invertebrates and young ungulates. Fruit and vegetable matter is also eaten sometimes. Although the red fox tends to kill smaller predators, including other fox species, it is vulnerable to attack from larger predators, such as wolves, coyotes, golden jackals and medium- and large-sized felines.
 
-http://en.wikipedia.org/wiki/Red_fox
+<http://en.wikipedia.org/wiki/Red_fox>

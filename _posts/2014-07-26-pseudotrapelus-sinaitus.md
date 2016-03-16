@@ -13,4 +13,4 @@ The length of the lizard including its long slender tail is 18 cm (7 in), the ta
 
 Pseudotrapelus sinaitus is active during daytime and feeds on insects and other arthropods and plants. During the breeding season, males become a striking blue colour to attract females. The female has brownish-red spots on her sides.
 
-http://en.wikipedia.org/wiki/Sinai_agama
+<http://en.wikipedia.org/wiki/Sinai_agama>

@@ -8,4 +8,4 @@ The Arctic fox (Vulpes lagopus), also known as the white fox, polar fox, or snow
 
 The Arctic fox preys on any small creatures it can find, including lemmings, voles, ringed seal pups, fish, and seabirds. It will also eat carrion, berries, and seaweed. Arctic foxes form monogamous pairs during the breeding season and usually stay together in family groups of multiple generations in complex underground dens.
 
-http://en.wikipedia.org/wiki/Arctic_fox
+<http://en.wikipedia.org/wiki/Arctic_fox>

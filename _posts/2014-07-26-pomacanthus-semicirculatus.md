@@ -11,4 +11,4 @@ The adult semicircle angelfish is a pale brownish-green colour. It is a deep-bod
 
 The juveniles in contrast, are blue-black marked from top to bottom with narrow white stripes. At the head end the stripes are fairly straight but they become increasingly curved as they approach the base of the tail. The juveniles gradually adopt the adult colouration when they are 8 to 16 centimetres (3.1 to 6.3 in).
 
-http://en.wikipedia.org/wiki/Pomacanthus_semicirculatus
+<http://en.wikipedia.org/wiki/Pomacanthus_semicirculatus>

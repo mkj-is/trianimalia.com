@@ -12,4 +12,4 @@ King penguins eat small fish, mainly lanternfish, and squid and rely less than m
 
 King penguins breed on the subantarctic islands at the northern reaches of Antarctica, South Georgia, and other temperate islands of the region.
 
-http://en.wikipedia.org/wiki/King_penguin
+<http://en.wikipedia.org/wiki/King_penguin>
